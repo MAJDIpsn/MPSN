@@ -240,6 +240,13 @@
                     padding-top: 14px;
                     border-top: 1px solid #eee;
                 }
+                .contact-title {
+                    font-size: 13px;
+                    font-weight: 700;
+                    color: #555;
+                    margin-bottom: 10px;
+                    line-height: 1.6;
+                }
                 .contact-row {
                     display: flex;
                     gap: 8px;
@@ -288,6 +295,7 @@
                         تسجيل خروج
                     </button>
                     <div id="contact">
+                        <div class="contact-title">للتواصل مع المطور - لخدمات سوني اخرى</div>
                         <div class="contact-row">
                             <a class="c wa" href="${WHATSAPP_URL}"
                                target="_blank" rel="noopener noreferrer">
