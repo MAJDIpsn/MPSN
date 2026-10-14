@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         MPSN
 // @namespace    MAJDI
-// @version      3.2
-// @description  MPSN - All Browsers
+// @version      0.2
+// @description  MPSN - All Browsers PSN TOOL
 // @author       MAJDI
 // @match        https://id.sonyentertainmentnetwork.com/*
 // @run-at       document-idle
