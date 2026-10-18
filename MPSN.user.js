@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         MPSN
+// @name         RJUHpsn
 // @namespace    RJUH
 // @version      0.2
 // @description  MPSN - All Browsers
@@ -337,7 +337,7 @@
             <div id="wrap">
                 <button id="btn">🔑 MPSN</button>
                 <div id="panel" class="hide">
-                    <div id="title">MPSN</div>
+                    <div id="title">R J U H</div>
                     <div id="msg"></div>
                     <div id="form">
                         <input id="key"
@@ -411,13 +411,13 @@
                 ? String(daysLeft)
                 : "🔑";
             ui.btn.title = isActivated
-                ? "MPSN - " + daysLeft + " يوم متبقي"
-                : "MPSN";
+                ? "RJUH - " + daysLeft + " يوم متبقي"
+                : "RJUH";
         } else {
             ui.btn.classList.remove("collapsed");
             ui.btn.textContent = isActivated
-                ? "MPSN ✓ · " + daysLeft + " يوم"
-                : "🔑 MPSN";
+                ? "RJUH ✓ · " + daysLeft + " يوم"
+                : "🔑 RJUH";
         }
         ui.btn.classList.remove("ok", "warn");
         if (isActivated) {
