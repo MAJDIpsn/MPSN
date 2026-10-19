@@ -88,8 +88,8 @@
         host.style.cssText = `
         all: initial;
         position: fixed;
-        top: 25px;
-        right: 15px;
+        top: 80px;
+        left: 15px;
         z-index: 2147483647;
         `;
         const shadow = host.attachShadow({ mode: "open" });
