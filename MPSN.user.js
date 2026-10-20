@@ -89,7 +89,7 @@
         all: initial;
         position: fixed;
         top: 80px;
-        left: 15px;
+        right: 15px;
         z-index: 2147483647;
         `;
         const shadow = host.attachShadow({ mode: "open" });
